@@ -11,5 +11,7 @@ Things we will be looking for include;
 - Usage of existing packages
 - Testing and testability
 
+User story: https://github.com/tintoapp/interviews/issues/1
+
 Hint:
 - This package may be useful: `react-native-in-app-review`
