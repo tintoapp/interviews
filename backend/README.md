@@ -17,20 +17,20 @@ yarn install
 Run the following command to create your SQLite database file. This also creates the `User` and `Post` tables that are defined in [`prisma/schema.prisma`](./prisma/schema.prisma):
 
 ```
-npx prisma migrate dev --name init
+yarn prisma migrate dev --name init
 ```
 
 Now, seed the database with the sample data in [`prisma/seed.ts`](./prisma/seed.ts) by running the following command:
 
 ```
-npx prisma db seed
+yarn prisma db seed
 ```
 
 
 ### 3. Start the REST API server
 
 ```
-npm run dev
+yarn dev
 ```
 
 The server is now running on `http://localhost:3000`. You can now the API requests, e.g. [`http://localhost:3000/feed`](http://localhost:3000/feed).
